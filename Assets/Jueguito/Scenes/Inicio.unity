@@ -526,7 +526,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1655222507}
         m_TargetAssemblyTypeName: BotonInstruc, Assembly-CSharp
-        m_MethodName: OnClickJugar
+        m_MethodName: OnClickInstruc
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1139,7 +1139,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 98829404}
         m_TargetAssemblyTypeName: BotonCreditos, Assembly-CSharp
-        m_MethodName: OnClickJugar
+        m_MethodName: OnClickCreditos
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1954,7 +1954,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1622147564}
         m_TargetAssemblyTypeName: BotonSalir, Assembly-CSharp
-        m_MethodName: OnClickJugar
+        m_MethodName: OnClickSalir
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

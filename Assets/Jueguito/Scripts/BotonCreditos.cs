@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BotonCreditos : MonoBehaviour
 {
-    public void OnClickJugar()
+    public void OnClickCreditos()
     {
         Debug.Log("Click");
 

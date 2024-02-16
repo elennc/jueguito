@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BotonInstruc : MonoBehaviour
 {
-    public void OnClickJugar()
+    public void OnClickInstruc()
     {
         Debug.Log("Click");
 

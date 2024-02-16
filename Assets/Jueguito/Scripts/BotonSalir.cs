@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BotonSalir : MonoBehaviour
 {
-    public void OnClickJugar()
+    public void OnClickSalir()
     {
         Debug.Log("Click");
 
