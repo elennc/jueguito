@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using MoreMountains.Tools;
 
-public class BotonSalir : MonoBehaviour
+public class Volver : MonoBehaviour
 {
-    public void OnClickSalir()
+    public void OnClickVolver()
     {
-        Application.Quit();
+        MMSceneLoadingManager.LoadScene("Inicio");
 
     }
 }
