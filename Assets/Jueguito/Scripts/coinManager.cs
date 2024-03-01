@@ -6,7 +6,17 @@ using MoreMountains.Tools;
 
 public class coinManager : MonoBehaviour, MMEventListener<PickableItemEvent>
 {
+    [SerializeField]
+    private GameObject puerta;
     private int monedas_recolectadas;
+
+    void Start()
+    {
+        if(puerta != null)
+        {
+            puerta.SetActive(false);
+        }
+    }
 
     void OnEnable()
     {
@@ -27,7 +37,7 @@ public class coinManager : MonoBehaviour, MMEventListener<PickableItemEvent>
 
         if(monedas_recolectadas == 4)
         {
-            Debug.Log("Abrir Puerta");
+            puerta.SetActive(true);
         }
     }
 }
