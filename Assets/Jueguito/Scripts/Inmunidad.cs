@@ -31,10 +31,10 @@ public class Inmunidad : MonoBehaviour, MMEventListener<PickableItemEvent>
 
     public virtual void OnMMEvent(PickableItemEvent e)
     {
-        if(e.PickableItem.name == "Flower")
+        /*if(e.PickableItem.name == "Flower")
         {
             ControlInmunidad();
-        }
+        }*/
     }
 
     public Health getHealth()
