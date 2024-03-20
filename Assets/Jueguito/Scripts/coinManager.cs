@@ -33,7 +33,11 @@ public class coinManager : MonoBehaviour, MMEventListener<PickableItemEvent>
     {
         //Debug.Log(e.PickableItem.name);
         //Debug.Log(e.PickableItem);
-        monedas_recolectadas++;
+        if(e.PickedItem.tag == "star")
+        {
+            monedas_recolectadas++;
+        }
+           
 
         if(monedas_recolectadas == 4)
         {

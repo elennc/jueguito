@@ -34,7 +34,11 @@ public class ItemManager : MonoBehaviour, MMEventListener<PickableItemEvent>
     {
         //Debug.Log(e.PickableItem.name);
         //Debug.Log(e.PickableItem);
-        item_recolectado++;
+        if(e.PickedItem.tag == "door")
+        {
+            item_recolectado++;
+
+        }
 
         if(item_recolectado == 1)
         {
