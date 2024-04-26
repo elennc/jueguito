@@ -7,6 +7,6 @@ public class CambiarNivel : MonoBehaviour
 {
     public void OnCambiarNivel()
     {
-        MMSceneLoadingManager.LoadScene("Nivel2");
+        MMSceneLoadingManager.LoadScene("Nivel3");
     }
 }
