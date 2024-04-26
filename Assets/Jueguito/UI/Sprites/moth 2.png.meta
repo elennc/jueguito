@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      moth 2_0: 3131402339877783971
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

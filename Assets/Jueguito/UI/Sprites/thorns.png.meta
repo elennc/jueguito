@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: ed85279388c70084886851cba8560096
+guid: 397851650c29bc6448df220f1a67a2ea
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5016754718281129317
-    second: Proyecto - Scripting (2)_0
+      213: -5929405817864647190
+    second: thorns_0
+  - first:
+      213: -2010917458671493427
+    second: thorns_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +49,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -100,13 +103,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Proyecto - Scripting (2)_0
+      name: thorns_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 7
         y: 0
-        width: 1920
-        height: 1080
+        width: 249
+        height: 504
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,8 +117,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b92a693e928e06ab0800000000000000
-      internalID: -5016754718281129317
+      spriteID: aed0b01f2d486bda0800000000000000
+      internalID: -5929405817864647190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thorns_1
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 0
+        width: 269
+        height: 504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dce1143c939c714e0800000000000000
+      internalID: -2010917458671493427
       vertices: []
       indices: 
       edges: []
@@ -123,7 +147,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -131,7 +155,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Proyecto - Scripting (2)_0: -5016754718281129317
+      thorns_0: -5929405817864647190
+      thorns_1: -2010917458671493427
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

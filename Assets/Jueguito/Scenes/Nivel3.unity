@@ -347,7 +347,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4f80fbfc90b412640b43027bcf09f3a6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 21.16
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4f80fbfc90b412640b43027bcf09f3a6, type: 3}
       propertyPath: m_LocalPosition.z
@@ -933,7 +933,7 @@ PrefabInstance:
     - target: {fileID: 1236139507801121672, guid: 22fbb76301f5e124ca7c711b3a2315f5,
         type: 3}
       propertyPath: m_Name
-      value: OTROEnemigo
+      value: worm
       objectReference: {fileID: 0}
     - target: {fileID: 6334213656903243783, guid: 22fbb76301f5e124ca7c711b3a2315f5,
         type: 3}
@@ -1574,7 +1574,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4f80fbfc90b412640b43027bcf09f3a6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 21.16
+      value: 20.72
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4f80fbfc90b412640b43027bcf09f3a6, type: 3}
       propertyPath: m_LocalPosition.z

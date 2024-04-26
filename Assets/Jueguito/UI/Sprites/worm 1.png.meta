@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: ed85279388c70084886851cba8560096
+guid: b31ef26765557ca42a879608682f0596
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5016754718281129317
-    second: Proyecto - Scripting (2)_0
+      213: 1798607648573298903
+    second: worm 1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Proyecto - Scripting (2)_0
+      name: worm 1_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1920
-        height: 1080
+        x: 11
+        y: 124
+        width: 688
+        height: 188
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,8 +114,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b92a693e928e06ab0800000000000000
-      internalID: -5016754718281129317
+      spriteID: 7d8138f7020f5f810800000000000000
+      internalID: 1798607648573298903
       vertices: []
       indices: 
       edges: []
@@ -130,8 +130,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      Proyecto - Scripting (2)_0: -5016754718281129317
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

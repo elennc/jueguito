@@ -37,7 +37,7 @@ GameObject:
   - component: {fileID: 4732409134414467094}
   - component: {fileID: 7863087692638152461}
   m_Layer: 13
-  m_Name: OTROEnemigo
+  m_Name: worm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -887,6 +887,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3148449382377376124}
   - component: {fileID: 4114555132858309361}
+  - component: {fileID: 785341180738507727}
   m_Layer: 13
   m_Name: Model
   m_TagString: Untagged
@@ -952,7 +953,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 0669d9607b270104aa00fc9720f5f1bc, type: 3}
+  m_Sprite: {fileID: 5238586562009237668, guid: bfa8f7b99d0647f4abacc14784766645,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -963,3 +965,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &785341180738507727
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2081228439835998855}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c5da72988c9fdf7469dc03089482554c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
