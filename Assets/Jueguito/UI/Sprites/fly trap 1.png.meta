@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      fly trap 1_0: -2945228746762905116
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
