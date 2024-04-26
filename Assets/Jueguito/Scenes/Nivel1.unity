@@ -356,12 +356,12 @@ PrefabInstance:
     - target: {fileID: 114095915300056716, guid: e0280ce1c05d2c44a94ad1203a85f698,
         type: 3}
       propertyPath: OnActivation.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: OnCambiarNivel
+      value: OnCambiarNivel1
       objectReference: {fileID: 0}
     - target: {fileID: 114095915300056716, guid: e0280ce1c05d2c44a94ad1203a85f698,
         type: 3}
       propertyPath: OnActivation.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: CambiarNivel, Assembly-CSharp
+      value: CambiarNivel1, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 114095915300056716, guid: e0280ce1c05d2c44a94ad1203a85f698,
         type: 3}
@@ -1826,7 +1826,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1318451876}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67c36606428442e4595fbbd44c0cc0bf, type: 3}
+  m_Script: {fileID: 11500000, guid: 51ac84139c1118c44b205c7afa0db2ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &1329184953

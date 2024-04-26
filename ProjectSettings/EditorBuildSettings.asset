@@ -260,5 +260,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Jueguito/Scenes/Instrucciones.unity
     guid: 18ca0148c14e39b45bd4b6239f6b937e
+  - enabled: 1
+    path: Assets/Jueguito/Scenes/Recompensas.unity
+    guid: d75811cdf82cb524c8fb9009d9a4fb97
+  - enabled: 1
+    path: Assets/Jueguito/Scenes/Nivel3.unity
+    guid: c9273b41d73c2064da281c86f11046b0
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
