@@ -4,7 +4,7 @@ using UnityEngine;
 using MoreMountains.CorgiEngine;
 using MoreMountains.Tools;
 
-public class Inmunidad : MonoBehaviour, MMEventListener<PickableItemEvent>
+public class Inmunidad : MonoBehaviour, MMEventListener<MMGameEvent>
 {
 
     [SerializeField]
@@ -19,22 +19,23 @@ public class Inmunidad : MonoBehaviour, MMEventListener<PickableItemEvent>
    
     void OnEnable()
     {
-        this.MMEventStartListening<PickableItemEvent>();
+        this.MMEventStartListening<MMGameEvent>();
 
     }
 
     void OnDisable()
     {
-        this.MMEventStopListening<PickableItemEvent>();
+        this.MMEventStopListening<MMGameEvent>();
 
     }
 
-    public virtual void OnMMEvent(PickableItemEvent e)
+    public virtual void OnMMEvent(MMGameEvent e)
     {
-        /*if(e.PickableItem.name == "Flower")
+        
+        if(e.EventName  == "Inmunidad")
         {
             ControlInmunidad();
-        }*/
+        }
     }
 
     public Health getHealth()
