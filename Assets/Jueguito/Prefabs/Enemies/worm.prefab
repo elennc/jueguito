@@ -784,7 +784,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed782cf6d45978347bcea1b2ec201483, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WalkBehaviour: 1
+  WalkBehaviour: 0
   ChangeDirectionOnWall: 1
   AvoidFalling: 1
   HoleDetectionOffset: {x: 0, y: 0, z: 0}
