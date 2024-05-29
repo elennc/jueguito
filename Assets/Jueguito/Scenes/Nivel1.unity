@@ -296,6 +296,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b70621361e9a3f46b44d1cb4c1976c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  coinCounter: 0
+  coinAchivement: 4
 --- !u!1001 &394002966
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2342,9 +2344,42 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 11422846, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -3597839889830873362, guid: 5e694113d4c53aa40844b481d13eb8e5,
+        type: 3}
+    - target: {fileID: 11462630, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11462630, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11462630, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
+      propertyPath: m_Color.g
+      value: 0.84313726
+      objectReference: {fileID: 0}
+    - target: {fileID: 11462630, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 11469452, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
       propertyPath: ForcedMode
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22422846, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.03142738
+      objectReference: {fileID: 0}
+    - target: {fileID: 22422846, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -1.77
+      objectReference: {fileID: 0}
+    - target: {fileID: 22422846, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.07
       objectReference: {fileID: 0}
     - target: {fileID: 22425704, guid: ace2d4bf56f98df4196ff81845a465d7, type: 3}
       propertyPath: m_AnchoredPosition.x
