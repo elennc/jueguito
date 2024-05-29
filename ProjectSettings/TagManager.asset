@@ -8,6 +8,9 @@ TagManager:
   - Music
   - Background
   - NoMask
+  - star
+  - door
+  - Enemy
   layers:
   - Default
   - TransparentFX
