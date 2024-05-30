@@ -474,6 +474,7 @@ GameObject:
   m_Component:
   - component: {fileID: 213527045}
   - component: {fileID: 213527046}
+  - component: {fileID: 213527048}
   - component: {fileID: 213527047}
   m_Layer: 0
   m_Name: LevelManager
@@ -606,6 +607,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   indexScene: 0
   killAchivement: 3
+--- !u!114 &213527048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 213527044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03833ab026795f9448610e84045f6254, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coins: 0
+  billAchivement: 12
 --- !u!4 &245067898 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 465018, guid: ad81b9eb03ed0b74e89f17f6fa6f66ed,

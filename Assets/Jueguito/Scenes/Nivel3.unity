@@ -191,6 +191,7 @@ GameObject:
   - component: {fileID: 213527045}
   - component: {fileID: 213527046}
   - component: {fileID: 213527047}
+  - component: {fileID: 213527048}
   m_Layer: 21
   m_Name: LevelManager
   m_TagString: Untagged
@@ -329,6 +330,20 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 19.92, y: 48.36, z: 10}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &213527048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 213527044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03833ab026795f9448610e84045f6254, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coins: 0
+  billAchivement: 12
 --- !u!1001 &243227258
 PrefabInstance:
   m_ObjectHideFlags: 0

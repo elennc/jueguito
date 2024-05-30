@@ -74,3 +74,15 @@ MonoBehaviour:
     UnlockedSound: {fileID: 0}
     ProgressTarget: 10
     ProgressCurrent: 0
+  - AchievementID: Reflect
+    AchievementType: 0
+    HiddenAchievement: 0
+    UnlockedStatus: 0
+    Title: Reflect
+    Description: Muere por primera vez
+    Points: 100
+    LockedImage: {fileID: 21300010, guid: fa6d364a5a0575245859952062aea14b, type: 3}
+    UnlockedImage: {fileID: 21300000, guid: fa6d364a5a0575245859952062aea14b, type: 3}
+    UnlockedSound: {fileID: 0}
+    ProgressTarget: 10
+    ProgressCurrent: 0

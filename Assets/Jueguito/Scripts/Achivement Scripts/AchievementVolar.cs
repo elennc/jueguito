@@ -11,13 +11,12 @@ public class AchievementVolar : MonoBehaviour, MMEventListener<MMDamageTakenEven
     public int indexScene;
     private int killCount = 0;
     public int killAchivement = 3;
-
-   
-
+ 
 
     void Start(){
         indexScene = SceneManager.GetActiveScene().buildIndex;
         
+       
     
     }
 
@@ -43,9 +42,9 @@ public class AchievementVolar : MonoBehaviour, MMEventListener<MMDamageTakenEven
             Debug.Log("Funciona pleek");
         }
 
-        if(indexScene == 2){
+        /*if(indexScene == 2){
             Debug.Log("Eso Tilina");
-        }
+        }*/
 
        
         if(killCount >= killAchivement)
@@ -53,6 +52,8 @@ public class AchievementVolar : MonoBehaviour, MMEventListener<MMDamageTakenEven
             MMAchievementManager.UnlockAchievement("Incecticida");
             Debug.Log("Logro");
         }
+
+        
        
     }
 
@@ -64,6 +65,8 @@ public class AchievementVolar : MonoBehaviour, MMEventListener<MMDamageTakenEven
             killCount++;
         }  
         Debug.Log("Kill count :"+ killCount); 
+
+     
     }
 
      public void OnMMEvent(PickableItemEvent m)
@@ -75,5 +78,11 @@ public class AchievementVolar : MonoBehaviour, MMEventListener<MMDamageTakenEven
             Debug.Log("achivement Inmunidad");
         }
     }
+
+   
+
+   
+
+    
 
 }
