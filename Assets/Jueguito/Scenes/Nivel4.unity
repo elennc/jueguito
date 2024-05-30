@@ -406,6 +406,7 @@ GameObject:
   - component: {fileID: 213527046}
   - component: {fileID: 213527048}
   - component: {fileID: 213527047}
+  - component: {fileID: 213527049}
   m_Layer: 0
   m_Name: LevelManager
   m_TagString: Untagged
@@ -537,7 +538,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   indexScene: 0
   killAchivement: 3
-  boss: {fileID: 1033614376}
   player: {fileID: 119040, guid: f7c53efb50f77cf479602d2cd4b54f36, type: 3}
 --- !u!114 &213527048
 MonoBehaviour:
@@ -551,6 +551,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03833ab026795f9448610e84045f6254, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &213527049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 213527044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ccdce7fbf262644ea73b854e97b1327, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boss: {fileID: 1033614376}
 --- !u!1001 &217653809
 PrefabInstance:
   m_ObjectHideFlags: 0

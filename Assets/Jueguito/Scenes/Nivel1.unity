@@ -132,7 +132,6 @@ GameObject:
   - component: {fileID: 213527047}
   - component: {fileID: 213527049}
   - component: {fileID: 213527048}
-  - component: {fileID: 213527050}
   m_Layer: 21
   m_Name: LevelManager
   m_TagString: Untagged
@@ -285,6 +284,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   indexScene: 0
   killAchivement: 3
+  player: {fileID: 119040, guid: f7c53efb50f77cf479602d2cd4b54f36, type: 3}
 --- !u!114 &213527049
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -299,20 +299,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   coinCounter: 0
   coinAchivement: 4
---- !u!114 &213527050
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 213527044}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03833ab026795f9448610e84045f6254, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  coins: 0
-  billAchivement: 12
 --- !u!1001 &394002966
 PrefabInstance:
   m_ObjectHideFlags: 0

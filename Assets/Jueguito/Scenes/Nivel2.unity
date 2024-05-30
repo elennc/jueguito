@@ -607,6 +607,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   indexScene: 0
   killAchivement: 3
+  player: {fileID: 119040, guid: f7c53efb50f77cf479602d2cd4b54f36, type: 3}
 --- !u!114 &213527048
 MonoBehaviour:
   m_ObjectHideFlags: 0
