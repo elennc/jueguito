@@ -12,6 +12,7 @@ TagManager:
   - door
   - Enemy
   - Inmunidad
+  - Boss
   layers:
   - Default
   - TransparentFX

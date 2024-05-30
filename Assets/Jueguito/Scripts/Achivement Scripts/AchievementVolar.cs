@@ -11,12 +11,13 @@ public class AchievementVolar : MonoBehaviour, MMEventListener<MMDamageTakenEven
     public int indexScene;
     private int killCount = 0;
     public int killAchivement = 3;
- 
+    [SerializeField] private GameObject boss;
+    private Health bossHealth;
 
     void Start(){
         indexScene = SceneManager.GetActiveScene().buildIndex;
         
-       
+       bossHealth = boss.GetComponent<Health>();
     
     }
 
@@ -53,7 +54,10 @@ public class AchievementVolar : MonoBehaviour, MMEventListener<MMDamageTakenEven
             Debug.Log("Logro");
         }
 
-        
+       if(bossHealth.CurrentHealth <= 0)
+       {
+         MMAchievementManager.UnlockAchievement("Boss");
+       } 
        
     }
 
@@ -65,6 +69,8 @@ public class AchievementVolar : MonoBehaviour, MMEventListener<MMDamageTakenEven
             killCount++;
         }  
         Debug.Log("Kill count :"+ killCount); 
+
+        
 
      
     }
