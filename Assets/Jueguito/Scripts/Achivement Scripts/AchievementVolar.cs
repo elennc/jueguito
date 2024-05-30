@@ -20,7 +20,7 @@ public class AchievementVolar : MonoBehaviour, MMEventListener<MMDamageTakenEven
         indexScene = SceneManager.GetActiveScene().buildIndex;
         
        bossHealth = boss.GetComponent<Health>();
-        playerHealth =player.GetComponent<Health>();
+        playerHealth = player.GetComponent<Health>();
     }
 
     
@@ -58,7 +58,7 @@ public class AchievementVolar : MonoBehaviour, MMEventListener<MMDamageTakenEven
 
        if(bossHealth.CurrentHealth <= 0)
        {
-         MMAchievementManager.UnlockAchievement("Boss");
+            MMAchievementManager.UnlockAchievement("Boss");
        } 
 
        if(playerHealth.CurrentHealth <= 0)
