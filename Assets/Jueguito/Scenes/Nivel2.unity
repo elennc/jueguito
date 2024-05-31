@@ -620,8 +620,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03833ab026795f9448610e84045f6254, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coins: 0
-  billAchivement: 12
 --- !u!4 &245067898 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 465018, guid: ad81b9eb03ed0b74e89f17f6fa6f66ed,
@@ -2489,6 +2487,14 @@ PrefabInstance:
     - target: {fileID: 490956, guid: 6059d977d1f210348bfbe1a82f4f9883, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11489144, guid: 6059d977d1f210348bfbe1a82f4f9883, type: 3}
+      propertyPath: CurrentLives
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11489144, guid: 6059d977d1f210348bfbe1a82f4f9883, type: 3}
+      propertyPath: MaximumLives
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 11489144, guid: 6059d977d1f210348bfbe1a82f4f9883, type: 3}
       propertyPath: GameOverScene
