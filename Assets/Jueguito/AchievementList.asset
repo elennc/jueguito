@@ -18,7 +18,7 @@ MonoBehaviour:
     AchievementType: 0
     HiddenAchievement: 0
     UnlockedStatus: 0
-    Title: Jump Around
+    Title: Ribbit
     Description: Salta al menos 10 veces
     Points: 100
     LockedImage: {fileID: 8558025165968288696, guid: 9cc516a9c83e33348a5944e4dee2183a,
@@ -102,7 +102,7 @@ MonoBehaviour:
     AchievementType: 0
     HiddenAchievement: 0
     UnlockedStatus: 0
-    Title: Boss
+    Title: Eww
     Description: Vence al Boss
     Points: 100
     LockedImage: {fileID: 8558025165968288696, guid: 9cc516a9c83e33348a5944e4dee2183a,
