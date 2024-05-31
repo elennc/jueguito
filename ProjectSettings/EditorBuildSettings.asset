@@ -240,11 +240,11 @@ EditorBuildSettings:
     path: Assets/Proyecto/Assets/Escenas/Perdio.unity
     guid: 0dc275943866a4a48a703a504f13b0d8
   - enabled: 1
-    path: Assets/CorgiEngine/ThirdParty/MoreMountains/MMTools/Tools/MMSceneLoading/LoadingScreens/LoadingScreen.unity
-    guid: 888394d52616e5e42b3b54c3f2bbd3eb
-  - enabled: 1
     path: Assets/Jueguito/Scenes/Inicio.unity
     guid: 8893628ff69bd2640abd5900ae43b749
+  - enabled: 1
+    path: Assets/CorgiEngine/ThirdParty/MoreMountains/MMTools/Tools/MMSceneLoading/LoadingScreens/LoadingScreen.unity
+    guid: 888394d52616e5e42b3b54c3f2bbd3eb
   - enabled: 1
     path: Assets/Jueguito/Scenes/Nivel1.unity
     guid: c269ca32498c3414daee7495fc2a4d2d
