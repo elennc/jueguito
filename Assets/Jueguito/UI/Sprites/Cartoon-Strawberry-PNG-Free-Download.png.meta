@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 91fbda7bb5c598f4e9add0a3382f0470
+guid: c12be5f894717134f9a5ccdf90e64d38
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4130640169021434097
-    second: 5_0
+      213: 6954516318816595028
+    second: Cartoon-Strawberry-PNG-Free-Download_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 5_0
+      name: Cartoon-Strawberry-PNG-Free-Download_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 240
-        height: 240
+        x: 190
+        y: 297
+        width: 917
+        height: 779
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,8 +114,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1f86b71495bf25930800000000000000
-      internalID: 4130640169021434097
+      spriteID: 45c68bfceb7638060800000000000000
+      internalID: 6954516318816595028
       vertices: []
       indices: 
       edges: []
@@ -130,8 +130,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      5_0: 4130640169021434097
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

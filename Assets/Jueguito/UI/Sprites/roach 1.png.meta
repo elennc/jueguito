@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      roach 1_0: -6485321115229445401
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
