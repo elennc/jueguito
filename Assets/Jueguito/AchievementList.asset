@@ -25,7 +25,7 @@ MonoBehaviour:
       type: 3}
     UnlockedImage: {fileID: 3465286685962602723, guid: cf759f3a29b0f984590d701d5254c584,
       type: 3}
-    UnlockedSound: {fileID: 0}
+    UnlockedSound: {fileID: 8300000, guid: 01287eb6e7789a84191aa6091861d970, type: 3}
     ProgressTarget: 10
     ProgressCurrent: 0
   - AchievementID: Vuela
@@ -39,7 +39,7 @@ MonoBehaviour:
       type: 3}
     UnlockedImage: {fileID: 6937817954938267909, guid: 70d33ed7ea4d7f34a869e734851c661f,
       type: 3}
-    UnlockedSound: {fileID: 0}
+    UnlockedSound: {fileID: 8300000, guid: 01287eb6e7789a84191aa6091861d970, type: 3}
     ProgressTarget: 10
     ProgressCurrent: 0
   - AchievementID: Incecticida
@@ -53,7 +53,7 @@ MonoBehaviour:
       type: 3}
     UnlockedImage: {fileID: -855298285791758126, guid: cc66131ca2405474b8ce0a94a165d996,
       type: 3}
-    UnlockedSound: {fileID: 0}
+    UnlockedSound: {fileID: 8300000, guid: 01287eb6e7789a84191aa6091861d970, type: 3}
     ProgressTarget: 10
     ProgressCurrent: 0
   - AchievementID: Hoarder
@@ -67,7 +67,7 @@ MonoBehaviour:
       type: 3}
     UnlockedImage: {fileID: -6470460504253458178, guid: 608fe92dfc3cf664e8dec2ecd7a48cee,
       type: 3}
-    UnlockedSound: {fileID: 0}
+    UnlockedSound: {fileID: 8300000, guid: 01287eb6e7789a84191aa6091861d970, type: 3}
     ProgressTarget: 10
     ProgressCurrent: 0
   - AchievementID: Pollinator
@@ -81,7 +81,7 @@ MonoBehaviour:
       type: 3}
     UnlockedImage: {fileID: 4130640169021434097, guid: 91fbda7bb5c598f4e9add0a3382f0470,
       type: 3}
-    UnlockedSound: {fileID: 0}
+    UnlockedSound: {fileID: 8300000, guid: 01287eb6e7789a84191aa6091861d970, type: 3}
     ProgressTarget: 10
     ProgressCurrent: 0
   - AchievementID: Reflect
@@ -95,7 +95,7 @@ MonoBehaviour:
       type: 3}
     UnlockedImage: {fileID: 4113829005332862926, guid: 52438b0820f0f0b45ae0df4d52b891a4,
       type: 3}
-    UnlockedSound: {fileID: 0}
+    UnlockedSound: {fileID: 8300000, guid: 01287eb6e7789a84191aa6091861d970, type: 3}
     ProgressTarget: 10
     ProgressCurrent: 0
   - AchievementID: Boss
@@ -109,6 +109,6 @@ MonoBehaviour:
       type: 3}
     UnlockedImage: {fileID: -4178046375966092550, guid: 3595f22517dfd7742b1c385c99d31e68,
       type: 3}
-    UnlockedSound: {fileID: 0}
+    UnlockedSound: {fileID: 8300000, guid: 01287eb6e7789a84191aa6091861d970, type: 3}
     ProgressTarget: 10
     ProgressCurrent: 0
