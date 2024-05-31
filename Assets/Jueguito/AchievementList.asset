@@ -19,7 +19,7 @@ MonoBehaviour:
     HiddenAchievement: 0
     UnlockedStatus: 0
     Title: Jump Around
-    Description: Jump at least 10 times
+    Description: Salta al menos 10 veces
     Points: 100
     LockedImage: {fileID: 21300010, guid: fa6d364a5a0575245859952062aea14b, type: 3}
     UnlockedImage: {fileID: 21300000, guid: fa6d364a5a0575245859952062aea14b, type: 3}
