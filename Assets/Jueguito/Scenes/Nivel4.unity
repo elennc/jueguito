@@ -2992,6 +2992,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 95343109349423520, guid: 1340ccdd12f670248a362ecd224e7c6b,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 7c835fe9c61f7844b81943d1da0cf2ba, type: 2}
     - target: {fileID: 114038109455739038, guid: 1340ccdd12f670248a362ecd224e7c6b,
         type: 3}
       propertyPath: States.Array.size
@@ -3162,6 +3167,12 @@ PrefabInstance:
       propertyPath: DetectionDirection
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 212283982269073096, guid: 1340ccdd12f670248a362ecd224e7c6b,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -45294209407940593, guid: 97766b4649cd09f4485b1c96f689b9bc,
+        type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

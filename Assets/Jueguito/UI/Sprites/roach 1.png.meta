@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: f469535d299d0b248af71f5d8eca6591
+guid: 9988494b257ea26428285f2fa4246d93
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -45294209407940593
-    second: roachhh_0
+      213: -6485321115229445401
+    second: roach 1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: roachhh_0
+      name: roach 1_0
       rect:
         serializedVersion: 2
-        x: 9
-        y: 0
-        width: 590
-        height: 500
+        x: 16
+        y: 24
+        width: 1863
+        height: 1591
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,8 +114,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f088bd118251f5ff0800000000000000
-      internalID: -45294209407940593
+      spriteID: 7e2a8607ec28ff5a0800000000000000
+      internalID: -6485321115229445401
       vertices: []
       indices: 
       edges: []
@@ -130,8 +130,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      roachhh_0: -45294209407940593
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

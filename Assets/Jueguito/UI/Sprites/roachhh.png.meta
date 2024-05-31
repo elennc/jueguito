@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f469535d299d0b248af71f5d8eca6591
+guid: 97766b4649cd09f4485b1c96f689b9bc
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -103,7 +103,7 @@ TextureImporter:
       name: roachhh_0
       rect:
         serializedVersion: 2
-        x: 9
+        x: 8
         y: 0
         width: 590
         height: 500
@@ -130,8 +130,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      roachhh_0: -45294209407940593
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
